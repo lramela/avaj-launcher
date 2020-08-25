@@ -19,10 +19,10 @@ public class Baloon extends Aircraft implements Flyable {
 
     public void updateConditions() {
         HashMap<String, String> map = new HashMap<>();
-        map.put("SUN", "It is hot.");
-        map.put("FOG", "It is foggy.");
-        map.put("SNOW", "It is chilly.");
-        map.put("RAIN", "I am getting soaked.");
+        map.put("SUN", "What sunshine is to flowers, smiles are to humanity.");
+        map.put("FOG", "Fog is not mysterious, fog is the mystery itself!.");
+        map.put("SNOW", "When snow falls,nature listen.");
+        map.put("RAIN", "Into each life some rain must fall.");
 
 
         String weather = weatherTower.getWeather(this.coordinates);
