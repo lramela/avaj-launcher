@@ -2,7 +2,7 @@ package com.avaj.craft;
 
 import com.avaj.interfaces.Coordinates;
 
-public class Aircraft {
+public abstract class Aircraft {
 
     protected long id;
     protected String name;
