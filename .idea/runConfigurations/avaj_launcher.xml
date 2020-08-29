@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="avaj-launcher" type="Java Scratch">
+    <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+    <option name="MAIN_CLASS_NAME" value="Simulator" />
+    <module name="avaj-launcher" />
+    <option name="PROGRAM_PARAMETERS" value="scenario.txt" />
+    <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/scenario.txt" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
