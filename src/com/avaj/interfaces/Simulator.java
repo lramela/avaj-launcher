@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import java.io.BufferedReader;
-//import java.io.FileNotFoundException;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -51,7 +50,7 @@ public class Simulator {
             System.out.println("Input/output contents error!");
             System.exit(1);
         } catch (NumberFormatException e) {
-            System.out.println("Check your input file contents!")
+            System.out.println("Check your input file contents!");
             System.exit(1);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Specify scenario file");
