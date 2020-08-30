@@ -5,7 +5,7 @@ import avaj.oop.interfaces.Tower;
 import avaj.oop.interfaces.WeatherProvider;
 
 public class WeatherTower  extends Tower {
-    public String getWeather(Coordinates coordinates) {
+    public String getWeather(final Coordinates coordinates) {
         return WeatherProvider.getProvider().getCurrentWeather(coordinates);
     }
 
