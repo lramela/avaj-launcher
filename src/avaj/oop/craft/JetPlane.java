@@ -1,10 +1,10 @@
-package com.oop.craft;
+package avaj.oop.craft;
 
-import com.oop.interfaces.Coordinates;
-import com.oop.interfaces.Logger;
+import avaj.oop.interfaces.Coordinates;
+import avaj.oop.interfaces.Logger;
 
-import com.oop.interfaces.WeatherTower;
-import com.oop.interfaces.Flyable;
+import avaj.oop.interfaces.WeatherTower;
+import avaj.oop.interfaces.Flyable;
 
 import java.util.HashMap;
 

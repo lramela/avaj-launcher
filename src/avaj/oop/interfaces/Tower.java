@@ -1,6 +1,6 @@
-package com.oop.interfaces;
+package avaj.oop.interfaces;
 
-import com.oop.interfaces.Flyable;
+import avaj.oop.interfaces.Flyable;
 
 import java.util.ArrayList;
 import java.util.List;

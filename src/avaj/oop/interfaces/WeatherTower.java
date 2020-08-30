@@ -1,8 +1,8 @@
-package com.oop.interfaces;
+package avaj.oop.interfaces;
 
-import com.oop.interfaces.Coordinates;
-import com.oop.interfaces.Tower;
-import com.oop.interfaces.WeatherProvider;
+import avaj.oop.interfaces.Coordinates;
+import avaj.oop.interfaces.Tower;
+import avaj.oop.interfaces.WeatherProvider;
 
 public class WeatherTower  extends Tower {
     public String getWeather(Coordinates coordinates) {

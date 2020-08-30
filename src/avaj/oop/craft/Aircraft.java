@@ -1,6 +1,6 @@
-package com.oop.craft;
+package avaj.oop.craft;
 
-import com.oop.interfaces.Coordinates;
+import avaj.oop.interfaces.Coordinates;
 
 public abstract class Aircraft {
 

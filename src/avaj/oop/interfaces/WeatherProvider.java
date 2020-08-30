@@ -1,4 +1,4 @@
-package com.oop.interfaces;
+package avaj.oop.interfaces;
 
 public class WeatherProvider {
 

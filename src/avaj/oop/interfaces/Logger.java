@@ -1,4 +1,4 @@
-package com.oop.interfaces;
+package avaj.oop.interfaces;
 
 import java.io.File;
 import java.io.IOException;

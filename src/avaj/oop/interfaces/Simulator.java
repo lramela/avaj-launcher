@@ -1,4 +1,4 @@
-package com.oop.interfaces;
+package avaj.oop.interfaces;
 
 import java.util.ArrayList;
 import java.util.List;

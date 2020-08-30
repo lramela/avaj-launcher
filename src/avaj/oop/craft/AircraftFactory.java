@@ -1,7 +1,7 @@
-package com.oop.craft;
+package avaj.oop.craft;
 
-import com.oop.interfaces.Coordinates;
-import com.oop.interfaces.Flyable;
+import avaj.oop.interfaces.Coordinates;
+import avaj.oop.interfaces.Flyable;
 
 public abstract class AircraftFactory {
 
