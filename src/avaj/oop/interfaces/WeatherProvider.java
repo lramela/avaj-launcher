@@ -1,23 +1,24 @@
 package avaj.oop.interfaces;
 
+import java.util.Random;
+
 public class WeatherProvider {
+    private static final WeatherProvider weatherProvider = new WeatherProvider();
+    private static final String[] weather = {"SUN", "RAIN", "FOG", "SNOW"};
 
-    private static String weather[] = {"RAIN" , "FOG" , "SUN" , "SNOW"};
-    private static WeatherProvider weatherProvider = new WeatherProvider();
-
-    private WeatherProvider() {
-        weatherProvider = this;
-    }
+    private WeatherProvider() {}
 
     public static WeatherProvider getProvider() {
-        weatherProvider = new WeatherProvider();
-        return weatherProvider;
+        return WeatherProvider.weatherProvider;
+
     }
 
-    public String getCurrentWeather (Coordinates coordinates) {
-        int value = coordinates.getLongitude() + coordinates.getLatitude() + coordinates.getHeight();
-
-        return weather[value % 4];
+    public String getCurrentWeather(final Coordinates coordinates) {
+        int index = 0;
+        if (coordinates.getHeight() > 0 && coordinates.getLongitude() > 0 && coordinates.getLatitude() > 0) {
+            final Random rand = new Random();
+            index = rand.nextInt(4);
+        }
+        return weather[index];
     }
-
 }
